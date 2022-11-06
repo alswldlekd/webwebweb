@@ -1,0 +1,83 @@
+<style>
+        {
+            font-family: "맑은 고딕", Arial, Helvetica, sans-serif;
+            line-height: 150%;
+        }
+        header h1{
+            display: inline;
+            font-size: 1.5em;
+        }
+        Ul {
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        nav ul{
+            border-top: 2px solid rgb(0, 0, 0);
+            border-bottom: 2px solid rgb(0, 0, 0);
+            padding: 15px 20px;
+        }
+        nav ul li{
+            display: inline;
+            padding: 15px 20px;
+            letter-spacing: 5px;
+        }
+        nav ul li:hover {
+            background-color: rgba(255, 228, 138, 0.762);
+        }
+        .photo > img {
+            padding-top: 50px;
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+        table th{
+            background-color: rgba(253, 173, 217, 0.374);
+        }
+        table {
+            width: 90%;
+            margin: 0 auto;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .right{
+            margin-top: 30px;
+            text-align: center;
+        }
+        body{
+            margin: 0 auto;
+            width: 80vw;
+            background-color: rgba(245, 244, 233, 0.533);
+        }
+
+        header {
+            height: 75px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        footer {
+            height: 85px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        nav{
+            height: 50px;
+            text-align: center;
+        }
+
+        section{
+            display: flex;
+        }
+        .content{
+            flex : 5;
+        }
+        aside{
+            flex: 0.5;
+        }
+        footer{
+            background-color: rgba(208, 205, 205, 0.742);
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
